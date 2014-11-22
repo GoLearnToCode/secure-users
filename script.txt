@@ -1,2 +1,28 @@
-show current code
+ORIENTATION
+
+1. show current code as prereq & console crud
+2. describe problem: all users share the same public list
+3. describe goal: each user should have their own, private list
+
+SIMPLE SIGN UP/IN
+
+1. Generate user model: email and password
+2. Add one user
+3. Sign-in form
+4. Simple authentication
+5. How does items controller know who's logged in?
+
+COOKIES
+
+1. Server variables get lost
+2. We will ask that user's browser to remember the ID for us
+4. Add to session hash when authenticated
+5. Show cookies inspector
+5. Read from session hash to find out what ID we told them about
+6. What if there is no ID?
+
+
+
+
+
 
