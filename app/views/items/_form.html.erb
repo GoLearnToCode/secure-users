@@ -1,0 +1,11 @@
+<%= form_for(@item) do |f| %>
+
+  <div class="form-group">
+    <%= f.label :content %><br>
+    <%= f.text_field :content, size: 80, class: 'form-control' %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit nil, class: 'btn btn-lg btn-primary' %>
+  </div>
+<% end %>
